@@ -1,6 +1,6 @@
 button {
 	&:disabled {
 		cursor: not-allowed;
-		pointer-events: unset;
+		pointer-events: auto !important;
 	}
 }
