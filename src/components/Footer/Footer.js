@@ -1,8 +1,9 @@
 import { Col, Container, Row } from 'react-bootstrap'
+import './Footer.scss'
 
 const Footer = () => {
 	return (
-		<footer>
+		<footer className='Footer'>
 			<Container>
 				<Row>
 					<Col className='text-center py-3'>
