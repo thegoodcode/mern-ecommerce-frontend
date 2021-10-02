@@ -7,7 +7,7 @@ const Header = () => {
 				<Container>
 					<Navbar.Brand href='/'>MERN E-Commerce</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
-					<Navbar.Collapse id='basic-navbar-nav'>
+					<Navbar.Collapse id='basic-navbar-nav' style={{ flexGrow: 0 }}>
 						<Nav className='ml-auto'>
 							<Nav.Link href='/car'>
 								<i className='fas fa-shopping-cart' /> Cart
