@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import './ErrorBoundary.scss'
 
 class ErrorBoundary extends Component {
 	constructor(props) {
@@ -19,7 +20,7 @@ class ErrorBoundary extends Component {
 		if (hasError) {
 			return (
 				<section className='ErrorBoundary'>
-					<h2>Something went wrong.</h2>
+					<h3>Something went wrong.</h3>
 				</section>
 			)
 		}
