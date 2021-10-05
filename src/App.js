@@ -8,6 +8,7 @@ import Loading from 'components/Loading/Loading'
 
 const HomeScreen = lazy(() => import('screens/HomeScreen/HomeScreen'))
 const ProductScreen = lazy(() => import('screens/ProductScreen/ProductScreen'))
+const CartScreen = lazy(() => import('screens/CartScreen/CartScreen'))
 
 const App = () => {
 	return (
@@ -18,6 +19,7 @@ const App = () => {
 					<Container>
 						<Route path='/' exact component={HomeScreen} />
 						<Route path='/product/:id' component={ProductScreen} />
+						<Route path='/cart/:id?' component={CartScreen} />
 					</Container>
 				</main>
 				<Footer />
